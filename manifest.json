@@ -1,0 +1,33 @@
+{
+
+  "description": "Icon made by Freepik from www.flaticon.com",
+  "manifest_version": 2,
+  "name": "SudocFiliation",
+  "version": "1.0",
+  "homepage_url": "https://github.com/gegedenice/SudocFiliation",
+   "icons": {
+    "16": "icons/SudocFiliation-16.png",
+	"32": "icons/SudocFiliation-32.png",
+    "48": "icons/SudocFiliation-48.png",
+    "128": "icons/SudocFiliation-128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["assets/js/jquery-3.3.1.min.js","assets/js/jquery.xml2json.js","background.js"]
+  },
+    "browser_action": {
+    "default_icon": "icons/SudocFiliation-32.png",
+    "default_title": "SudocFiliation",
+    "default_popup": "popup/help.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.sudoc.abes.fr/*"],
+      "js": ["assets/js/jquery-3.3.1.min.js","assets/js/jquery-ui.js","assets/js/jquery.xml2json.js","assets/js/vis.min.js","content_script.js"],
+	  "css": ["assets/css/jquery-ui.css","assets/css/vis.min.css"]
+    }
+  ]
+
+}
