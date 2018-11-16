@@ -14,7 +14,7 @@ Les localisations s'affichent au survol des noeuds avec la souris.
 
 ## Installer l'add-on
 
-Depuis le market place : []()
+Depuis le market place : [https://addons.mozilla.org/fr/firefox/addon/sudocfiliation/](https://addons.mozilla.org/fr/firefox/addon/sudocfiliation/)
 
 ## Tester en local (sous Node)
 * Installer l'utilitaire Web-ext : npm install --global web-ext
