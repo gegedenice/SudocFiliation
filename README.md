@@ -5,7 +5,7 @@ Une extension (pour Firefox) qui interagit avec le [Sudoc](http://www.sudoc.abes
 
 ## Comment ça marche
 
-Chaque notice dans sa version web de données modélisée en rdf (par exemple [http://www.sudoc.fr/040338029.rdf](http://www.sudoc.fr/040338029.rdf) )est ouverte pour être parsée et les propriétés correspondant aus zones de liens en sont extraites. Les localisations dynamiques sont obtenues sur la base du ppn avec le [web service multiwhere](http://documentation.abes.fr/sudoc/manuels/administration/aidewebservices/index.html#multiwhere:3).
+Chaque notice dans sa version web de données modélisée en rdf (par exemple [http://www.sudoc.fr/040338029.rdf](http://www.sudoc.fr/040338029.rdf) ) est ouverte pour être parsée et les propriétés correspondant aus zones de liens en sont extraites. Les localisations dynamiques sont obtenues sur la base du ppn avec le [web service multiwhere](http://documentation.abes.fr/sudoc/manuels/administration/aidewebservices/index.html#multiwhere:3).
 
 ## Utilisation
 
