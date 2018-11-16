@@ -1,6 +1,6 @@
 # SudocFiliation
 
-Une extension (pour Firefox) qui interagit avec le [Sudoc](http://www.sudoc.abes.fr)(Sudoc) (le catalogue collectif national de l'ESR) en affichant le graphe dynamique des notices liées par des relations de type "Suite de", "Devient", "Fusionne avec" etc... pour les notices de périodiques. C'est donc une représentation graphique des filiations (quand elles existent) qui permet de naviguer dans les étapes du cycle de vie des revues et de visualiser dans le même temps la liste des bibliothèques localisées sous chaque notice.
+Une extension (pour Firefox) qui interagit avec le [Sudoc](http://www.sudoc.abes.fr), le catalogue collectif national de l'ESR, en affichant le graphe dynamique des notices liées par des relations de type "Suite de", "Devient", "Fusionne avec" etc... pour les notices de périodiques. C'est donc une représentation graphique des filiations (quand elles existent) qui permet de naviguer dans les étapes du cycle de vie des revues et de visualiser dans le même temps la liste des bibliothèques localisées sous chaque notice.
 
 
 ## Comment ça marche
