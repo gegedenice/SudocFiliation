@@ -2,7 +2,7 @@
 if($( "img[alt^='Périodiques']" ).length != 0 && $( "span.tab1" ).text() == "Notice détaillée"){
 //document.body.style.border = "5px solid red";
 $('.tabbar').append('<span class="tabsep">|</span><span class="tab1" id="toogleGraph">Afficher/masquer le graphe</span>');	
-$('.tabbar').append('<div class="filiation" id="network" style="height:400px;width:600px;border:1px solid lightgray;background-color:#e4ebf5;float:left;"></div><div class="filiation" id="locs" style="background-color:white;columns:3 100px"></div>');
+$('.tabbar').append('<div class="filiation" id="network" style="margin-top:50px;margin-left:50px;height:400px;width:600px;border:1px solid lightgray;background-color:#e4ebf5;float:left;"></div><div class="filiation" id="locs" style="margin-top:50px;background-color:#e4ebf5;"></div>');
 	var nodes = new vis.DataSet();
     var edges = new vis.DataSet();
 //$(".filiation") .hide();  
@@ -49,7 +49,7 @@ function getLocs(ppn){
 
 function handleResponseLocs(message) {
      $.each(message.response.locs, function(key, value){
-   $("#locs").append('<h6><bold>'+ value.bib+'</bold></h6');
+   $("#locs").append('<h6><bold> '+ value.bib+'</bold></h6');
          });
 }
 function handleResponse(message) {

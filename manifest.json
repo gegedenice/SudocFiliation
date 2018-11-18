@@ -25,8 +25,8 @@
   "content_scripts": [
     {
       "matches": ["*://*.sudoc.abes.fr/*"],
-      "js": ["assets/js/jquery-3.3.1.min.js","assets/js/jquery-ui.js","assets/js/jquery.xml2json.js","assets/js/vis.min.js","content_script.js"],
-	  "css": ["assets/css/jquery-ui.css","assets/css/vis.min.css"]
+      "js": ["assets/js/jquery-3.3.1.min.js","assets/js/jquery-ui.min.js","assets/js/vis.min.js","content_script.js"],
+	  "css": ["assets/css/jquery-ui.min.css","assets/css/vis.min.css"]
     }
   ]
 
